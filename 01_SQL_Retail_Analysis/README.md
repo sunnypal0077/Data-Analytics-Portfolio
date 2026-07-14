@@ -1,145 +1,145 @@
-# 🛒 SQL Retail Sales Analysis
+# 📌 Project Overview
 
-## 📌 Project Overview
+ShopSmart Retail Pvt. Ltd. is a fictional retail company operating across multiple product categories in India.
 
-This project analyzes retail sales data using SQL to uncover business insights related to sales performance, customer behavior, and product trends. The goal is to demonstrate SQL skills commonly required for entry-level Data Analyst roles.
+The management team wants to understand sales performance, customer purchasing behavior, product profitability, and business growth using SQL.
 
----
-
-## 🎯 Business Problem
-
-Retail businesses generate large amounts of sales data every day. This project answers key business questions that help stakeholders make data-driven decisions regarding sales, customers, and products.
+This project demonstrates how SQL can be used to transform raw retail sales data into actionable business insights.
 
 ---
 
-## 🛠️ Tools & Technologies
+# 🎯 Business Objectives
 
-- SQL (MySQL / PostgreSQL / SQL Server)
-- Git & GitHub
+This project answers key business questions such as:
 
----
-
-## 📂 Dataset
-
-The dataset contains retail transaction data with information such as:
-
-- Order ID
-- Order Date
-- Customer ID
-- Customer Name
-- Product
-- Category
-- Quantity
-- Unit Price
-- Sales
-- Profit
-- City
-- State
+- Which products generate the highest revenue?
+- Which categories perform the best?
+- Who are the top customers?
+- What are the monthly sales trends?
+- What is the average order value?
+- Which products sell the most?
+- Which customers purchase most frequently?
+- How is revenue distributed across categories?
 
 ---
 
-## 📊 Business Questions Solved
+# 🛠 Tools Used
 
-- Total Sales
-- Total Profit
+- MySQL 8
+- SQL
+- MySQL Workbench
+- Git
+- GitHub
+
+---
+
+# 📂 Repository Structure
+
+
+
+# 🗄 Database Schema
+
+| Column | Description |
+|----------|-------------|
+| Order_ID | Unique Order ID |
+| Order_Date | Date of Purchase |
+| Customer_ID | Customer Identifier |
+| Customer_Name | Customer Name |
+| Category | Product Category |
+| Product | Product Name |
+| Quantity | Quantity Purchased |
+| Unit_Price | Price per Unit |
+| Sales | Total Sales |
+
+---
+
+# 📊 SQL Concepts Demonstrated
+
+✅ SELECT
+
+✅ WHERE
+
+✅ ORDER BY
+
+✅ GROUP BY
+
+✅ HAVING
+
+✅ Aggregate Functions
+
+✅ Subqueries
+
+✅ Common Table Expressions (CTEs)
+
+✅ Window Functions
+
+✅ ROW_NUMBER()
+
+✅ RANK()
+
+✅ DENSE_RANK()
+
+✅ NTILE()
+
+✅ LAG()
+
+✅ LEAD()
+
+---
+
+# 📈 Business Questions Solved
+
+- Total Revenue
 - Total Orders
 - Average Order Value
-- Top 10 Best Selling Products
-- Top 10 Customers by Revenue
+- Revenue by Category
+- Top Products
+- Top Customers
 - Monthly Sales Trend
-- Sales by Category
-- Sales by State
-- Most Profitable Products
 - Customer Purchase Frequency
-- Revenue Contribution by Category
+- Revenue Contribution
+- Product Ranking
+- Running Total
+- Monthly Growth
+- Customer Lifetime Value
 
 ---
 
-## 🧠 SQL Concepts Demonstrated
 
-- SELECT
-- WHERE
-- ORDER BY
-- GROUP BY
-- HAVING
-- CASE WHEN
-- Aggregate Functions
-- INNER JOIN
-- LEFT JOIN
-- Common Table Expressions (CTEs)
-- Window Functions
-- Subqueries
+# 💡 Key Insights
+
+- Electronics generated the highest revenue.
+- A small group of customers contributed a large share of total sales.
+- Revenue showed seasonal variation across the year.
+- A few products consistently outperformed others.
+- SQL window functions helped identify customer and product rankings.
 
 ---
 
-## 📁 Project Structure
-
-```
-01_SQL_Retail_Analysis/
-│
-├── README.md
-├── dataset/
-│   └── retail_sales.csv
-├── sql_queries/
-│   └── retail_analysis.sql
-├── screenshots/
-│   ├── monthly_sales.png
-│   ├── top_products.png
-│   └── revenue_by_category.png
-```
-
----
-
-## 📈 Key Insights
-
-- Electronics generated the highest revenue among all categories.
-- December recorded the highest monthly sales due to seasonal demand.
-- Approximately 20% of customers contributed to nearly 80% of total revenue.
-- A small number of products generated the majority of total profit.
-- Repeat customers showed significantly higher average order values than first-time buyers.
-
----
-
-## 💼 Business Recommendations
-
-- Increase inventory before peak sales seasons.
-- Focus marketing efforts on high-value customers.
-- Promote high-margin products to improve profitability.
-- Identify low-performing products for pricing or inventory optimization.
-- Develop customer loyalty programs to increase repeat purchases.
-
----
-
-## 🚀 Skills Demonstrated
+# 🚀 Skills Demonstrated
 
 - Data Analysis
 - SQL Query Writing
-- Business Analytics
+- Business Analysis
 - Data Aggregation
-- Trend Analysis
-- Data Storytelling
+- Window Functions
+- Analytical Thinking
+- Database Design
+- Reporting
 
----
 
-## 📷 Project Screenshots
-
-*Screenshots will be added after completing the SQL analysis.*
-
----
-
-## 👨‍💻 Author
+# 👨‍💻 About Me
 
 **Sunny Pal**
 
-Aspiring Data Analyst
+Aspiring Data Analyst passionate about transforming data into meaningful insights using SQL, Python, Excel, and Power BI.
 
-Skills:
-- SQL
-- Python
-- Power BI
-- Excel
-- Statistics
-- Data Visualization
+📧 Email: sunnypals12345@gmail.com
 
+🔗 LinkedIn: www.linkedin.com/in/sunny-pal-781aa4201 
 
+🔗 GitHub: https://github.com/sunnypal0077
 
+---
+
+## ⭐ If you found this project useful, consider giving it a star!
